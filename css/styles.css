@@ -290,6 +290,7 @@ figure {
 
 img,
 svg {
+  
   vertical-align: middle;
 }
 
@@ -516,6 +517,7 @@ progress {
     font-size: 4rem;
   }
 }
+
 
 .display-4 {
   font-size: calc(1.475rem + 2.7vw);
@@ -2558,6 +2560,10 @@ textarea.form-control-lg {
   pointer-events: none;
   filter: none;
   opacity: 0.65;
+}
+
+.rounded-image {
+  border-radius: 10px;
 }
 
 .form-range {
@@ -7372,6 +7378,7 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -11278,6 +11285,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+  
 }
 body {
   padding-top: 3.375rem;
@@ -11396,6 +11404,7 @@ p.lead {
 .dev-icons {
   font-size: 3rem;
 }
+
 
 section.resume-section {
   display: flex;
